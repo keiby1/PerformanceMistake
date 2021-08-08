@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class MainOutOfMemory {
     public static void main(String[] args) {
+        System.out.println("Enter anyone for start");
         new Scanner(System.in).next();
         System.out.println("started");
         LinkedList<MyObj> list=new LinkedList<>();;
