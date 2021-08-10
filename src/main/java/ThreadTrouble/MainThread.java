@@ -9,8 +9,8 @@ public class MainThread {
         new Scanner(System.in).next();
         System.out.println("started");
 
-        for (int i = 0; i < 10000; i++) {
-            new CreaterTh().start(); //перебор... лучше такое не запускать
+        for (int i = 0; i < 1; i++) {
+            new ThreadTrouble.CreaterTh().start(); //перебор... лучше такое не запускать
         }
     }
 }

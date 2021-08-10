@@ -5,7 +5,7 @@ public class MyThread extends Thread{
     public void run(){
         while (true){
             try {
-                sleep(10);
+                sleep(100000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
