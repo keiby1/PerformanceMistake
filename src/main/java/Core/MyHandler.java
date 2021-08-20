@@ -6,7 +6,7 @@ import com.sun.net.httpserver.HttpHandler;
 import java.io.IOException;
 import java.io.OutputStream;
 
-class MyHandler implements HttpHandler {
+public class MyHandler implements HttpHandler {
     @Override
     public void handle(HttpExchange t) throws IOException {
         String response = "This is the response";
