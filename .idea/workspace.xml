@@ -1,30 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98713a39-1eaa-4c60-9b4d-eb972c1659fb" name="Default Changelist" comment="Добавил ядро - точка входа запросов">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/MemoryTrouble.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Core/Core.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Core/MyHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Experiments/BigString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Experiments/DBTrouble.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Experiments/GCTrouble.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Experiments/MaxPerfThrouble.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Experiments/OpenConnectionTrouble.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/JobTrouble/JobThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/JobTrouble/JobTrouble.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/LoggerTrouble/LogThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/LoggerTrouble/LoggerTrouble.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/OutOfMemory.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/OutOfMemoryTrouble/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/OutOfMemoryTrouble/MainOutOfMemory$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/OutOfMemoryTrouble/MainOutOfMemory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/OutOfMemoryTrouble/MyObj.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ThreadTrouble/CreaterTh.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ThreadTrouble/MainThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ThreadTrouble/MyThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Utils/Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+    <list default="true" id="98713a39-1eaa-4c60-9b4d-eb972c1659fb" name="Default Changelist" comment="Добавил теорию">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Experiments/TroubleWithMonitoring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.intellij.rt.execution.application.AppMainV2$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/com.sun.jmx.remote.internal.ServerCommunicatorAdmin$Timeout.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/java.io.DeleteOnExitHook$1.class" beforeDir="false" />
@@ -275,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629496134846</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Документация по приложению с утечкой памяти">
+      <created>1629496921653</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1629496921653</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -292,7 +278,8 @@
     <MESSAGE value="Идея - проблема при достижении определенной нагрузки&#10;Идея - проблема при одновременном открытии большого числа коннектов" />
     <MESSAGE value="Добавил ядро - точка входа запросов" />
     <MESSAGE value="MemoryTrouble v1.0 Работает, проведено первое НТ" />
-    <option name="LAST_COMMIT_MESSAGE" value="MemoryTrouble v1.0 Работает, проведено первое НТ" />
+    <MESSAGE value="Документация по приложению с утечкой памяти" />
+    <option name="LAST_COMMIT_MESSAGE" value="Документация по приложению с утечкой памяти" />
   </component>
   <component name="WindowStateProjectService">
     <state x="101" y="359" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629495326005">
@@ -311,10 +298,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="370" y="454" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1629403358856" />
-    <state x="314" y="299" key="CommitChangelistDialog2" timestamp="1629496871433">
+    <state x="314" y="299" key="CommitChangelistDialog2" timestamp="1629497035397">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="314" y="299" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1629496871433" />
+    <state x="314" y="299" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1629497035397" />
     <state x="0" y="128" key="DiffContextDialog" timestamp="1629496818890">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -343,10 +330,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="120" y="282" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1628630087449" />
-    <state x="239" y="437" key="Vcs.Push.Dialog.v2" timestamp="1629496140521">
+    <state x="239" y="437" key="Vcs.Push.Dialog.v2" timestamp="1629496928591">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="239" y="437" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1629496140521" />
+    <state x="239" y="437" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1629496928591" />
     <state x="355" y="529" key="com.intellij.ide.util.TipDialog" timestamp="1629142655816">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
