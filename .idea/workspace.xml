@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98713a39-1eaa-4c60-9b4d-eb972c1659fb" name="Default Changelist" comment="Добавил теорию">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Experiments/TroubleWithMonitoring.java" afterDir="false" />
+    <list default="true" id="98713a39-1eaa-4c60-9b4d-eb972c1659fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_36_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myfin.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DBTrouble/DBTrouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DBTrouble/DbHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DBTrouble/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.intellij.rt.execution.application.AppMainV2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.sun.jmx.remote.internal.ServerCommunicatorAdmin$Timeout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.io.DeleteOnExitHook$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.lang.ApplicationShutdownHooks$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.lang.ref.Finalizer$FinalizerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.lang.ref.Reference$ReferenceHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.util.concurrent.ThreadPoolExecutor$Worker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.util.logging.LogManager$Cleaner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sun.nio.ch.FileChannelImpl$Unmapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sun.nio.fs.NativeBuffer$Deallocator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sun.rmi.transport.DGCAckHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sun.rmi.transport.DGCImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OutOfMemory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OutOfMemory.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Experiments/DBTrouble.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +60,12 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\demo (2)\OutOfMemory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DBTrouble">
     <configuration name="BigString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Experiments.BigString" />
       <module name="OutOfMemory" />
@@ -82,6 +79,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBTrouble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DBTrouble.DBTrouble" />
+      <module name="OutOfMemory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DBTrouble.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,27 +126,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadTrouble.MainThread" />
-      <module name="OutOfMemory" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.BigString" />
       <item itemvalue="Application.Core" />
       <item itemvalue="Application.LoggerTrouble" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.MainThread" />
+      <item itemvalue="Application.DBTrouble" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DBTrouble" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Core" />
         <item itemvalue="Application.BigString" />
         <item itemvalue="Application.LoggerTrouble" />
-        <item itemvalue="Application.MainThread" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +264,28 @@
       <option name="project" value="LOCAL" />
       <updated>1629496921653</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Добавил теорию">
+      <created>1629497061215</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1629497061215</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Добавил теорию - проблема с документацией, требующая общения с разработчиком">
+      <created>1629497247199</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1629497247199</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Комментарий по проблеме с БД">
+      <created>1629497298655</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1629497298655</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -279,13 +303,20 @@
     <MESSAGE value="Добавил ядро - точка входа запросов" />
     <MESSAGE value="MemoryTrouble v1.0 Работает, проведено первое НТ" />
     <MESSAGE value="Документация по приложению с утечкой памяти" />
-    <option name="LAST_COMMIT_MESSAGE" value="Документация по приложению с утечкой памяти" />
+    <MESSAGE value="Добавил теорию" />
+    <MESSAGE value="Добавил теорию - проблема с документацией, требующая общения с разработчиком" />
+    <MESSAGE value="Комментарий по проблеме с БД" />
+    <option name="LAST_COMMIT_MESSAGE" value="Комментарий по проблеме с БД" />
   </component>
   <component name="WindowStateProjectService">
     <state x="101" y="359" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629495326005">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="101" y="359" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1629495326005" />
+    <state x="408" y="511" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1629670947420">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="408" y="511" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1629670947420" />
     <state x="445" y="423" key="#com.intellij.ide.util.MemberChooser" timestamp="1629492420216">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -298,10 +329,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="370" y="454" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1629403358856" />
-    <state x="314" y="299" key="CommitChangelistDialog2" timestamp="1629497246775">
+    <state x="314" y="299" key="CommitChangelistDialog2" timestamp="1629497298233">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="314" y="299" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1629497246775" />
+    <state x="314" y="299" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1629497298233" />
     <state x="0" y="128" key="DiffContextDialog" timestamp="1629496818890">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -310,30 +341,30 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="427" y="459" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1629054585276" />
-    <state width="1234" height="482" key="GridCell.Tab.0.bottom" timestamp="1629496859332">
+    <state width="1234" height="482" key="GridCell.Tab.0.bottom" timestamp="1629671014862">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="482" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1629496859332" />
-    <state width="1234" height="482" key="GridCell.Tab.0.center" timestamp="1629496859332">
+    <state width="1234" height="482" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1629671014862" />
+    <state width="1234" height="482" key="GridCell.Tab.0.center" timestamp="1629671014862">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="482" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1629496859332" />
-    <state width="1234" height="482" key="GridCell.Tab.0.left" timestamp="1629496859332">
+    <state width="1234" height="482" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1629671014862" />
+    <state width="1234" height="482" key="GridCell.Tab.0.left" timestamp="1629671014861">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="482" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1629496859332" />
-    <state width="1234" height="482" key="GridCell.Tab.0.right" timestamp="1629496859332">
+    <state width="1234" height="482" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1629671014861" />
+    <state width="1234" height="482" key="GridCell.Tab.0.right" timestamp="1629671014862">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="482" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1629496859332" />
+    <state width="1234" height="482" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1629671014862" />
     <state x="120" y="282" key="SettingsEditor" timestamp="1628630087449">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="120" y="282" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1628630087449" />
-    <state x="239" y="437" key="Vcs.Push.Dialog.v2" timestamp="1629497063784">
+    <state x="239" y="437" key="Vcs.Push.Dialog.v2" timestamp="1629497301505">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="239" y="437" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1629497063784" />
+    <state x="239" y="437" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1629497301505" />
     <state x="355" y="529" key="com.intellij.ide.util.TipDialog" timestamp="1629142655816">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -342,9 +373,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="29" y="327" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1629054307480" />
-    <state x="303" y="332" key="run.anything.popup" timestamp="1628454958685">
+    <state x="303" y="332" key="run.anything.popup" timestamp="1629668758139">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="303" y="332" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1628454958685" />
+    <state x="303" y="332" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1629668758139" />
   </component>
 </project>
