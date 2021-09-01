@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98713a39-1eaa-4c60-9b4d-eb972c1659fb" name="Default Changelist" comment="Наброски для проблемы с БД">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/DBTrouble.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="98713a39-1eaa-4c60-9b4d-eb972c1659fb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -285,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629671076591</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Добавил информации в МД по трабле с БД">
+      <created>1629757321662</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1629757321662</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -307,7 +311,8 @@
     <MESSAGE value="Добавил теорию - проблема с документацией, требующая общения с разработчиком" />
     <MESSAGE value="Комментарий по проблеме с БД" />
     <MESSAGE value="Наброски для проблемы с БД" />
-    <option name="LAST_COMMIT_MESSAGE" value="Наброски для проблемы с БД" />
+    <MESSAGE value="Добавил информации в МД по трабле с БД" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил информации в МД по трабле с БД" />
   </component>
   <component name="WindowStateProjectService">
     <state x="101" y="359" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629495326005">
@@ -330,10 +335,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="370" y="454" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1629403358856" />
-    <state x="314" y="299" key="CommitChangelistDialog2" timestamp="1629757049405">
+    <state x="314" y="299" key="CommitChangelistDialog2" timestamp="1629757321207">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="314" y="299" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1629757049405" />
+    <state x="314" y="299" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1629757321207" />
     <state x="0" y="128" key="DiffContextDialog" timestamp="1629496818890">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -362,10 +367,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="120" y="282" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1628630087449" />
-    <state x="239" y="437" key="Vcs.Push.Dialog.v2" timestamp="1629671079133">
+    <state x="239" y="437" key="Vcs.Push.Dialog.v2" timestamp="1629757324412">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="239" y="437" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1629671079133" />
+    <state x="239" y="437" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1629757324412" />
     <state x="355" y="529" key="com.intellij.ide.util.TipDialog" timestamp="1629142655816">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
