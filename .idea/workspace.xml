@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98713a39-1eaa-4c60-9b4d-eb972c1659fb" name="Default Changelist" comment="" />
+    <list default="true" id="98713a39-1eaa-4c60-9b4d-eb972c1659fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OtherLoggerTrouble/LogThread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_2_0_0_alpha1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_2_0_0_alpha1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_0_alpha1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OutOfMemory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OutOfMemory.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoggerTrouble/LogThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoggerTrouble/LogThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoggerTrouble/LoggerTrouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoggerTrouble/LoggerTrouble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OtherLoggerTrouble/LoggerTrouble2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OtherLoggerTrouble/LoggerTrouble2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j______.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,11 +68,15 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="OtherLoggerTrouble" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\demo (2)\OutOfMemory\src\main\resources" />
       <recent name="E:\IdeaProjects\demo (2)\OutOfMemory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DBTrouble">
+  <component name="RunManager" selected="Application.LoggerTrouble2">
     <configuration name="BigString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Experiments.BigString" />
       <module name="OutOfMemory" />
@@ -89,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoggerTrouble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LoggerTrouble.LoggerTrouble" />
+    <configuration name="LoggerTrouble2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OtherLoggerTrouble.LoggerTrouble2" />
       <module name="OutOfMemory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LoggerTrouble.*" />
+          <option name="PATTERN" value="OtherLoggerTrouble.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,17 +140,17 @@
     <list>
       <item itemvalue="Application.BigString" />
       <item itemvalue="Application.Core" />
-      <item itemvalue="Application.LoggerTrouble" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.DBTrouble" />
+      <item itemvalue="Application.LoggerTrouble2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoggerTrouble2" />
         <item itemvalue="Application.DBTrouble" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Core" />
         <item itemvalue="Application.BigString" />
-        <item itemvalue="Application.LoggerTrouble" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629757321662</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Набросок проблемы с логгированием №2">
+      <created>1630525638636</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1630525638636</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -312,7 +340,8 @@
     <MESSAGE value="Комментарий по проблеме с БД" />
     <MESSAGE value="Наброски для проблемы с БД" />
     <MESSAGE value="Добавил информации в МД по трабле с БД" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил информации в МД по трабле с БД" />
+    <MESSAGE value="Набросок проблемы с логгированием №2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Набросок проблемы с логгированием №2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="101" y="359" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629495326005">
@@ -335,10 +364,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="370" y="454" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1629403358856" />
-    <state x="314" y="299" key="CommitChangelistDialog2" timestamp="1629757321207">
+    <state x="314" y="299" key="CommitChangelistDialog2" timestamp="1630525638151">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="314" y="299" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1629757321207" />
+    <state x="314" y="299" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1630525638151" />
     <state x="0" y="128" key="DiffContextDialog" timestamp="1629496818890">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -347,30 +376,30 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="427" y="459" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1629054585276" />
-    <state width="1234" height="482" key="GridCell.Tab.0.bottom" timestamp="1629671085381">
+    <state width="1234" height="484" key="GridCell.Tab.0.bottom" timestamp="1630528098177">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="482" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1629671085381" />
-    <state width="1234" height="482" key="GridCell.Tab.0.center" timestamp="1629671085381">
+    <state width="1234" height="484" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1630528098177" />
+    <state width="1234" height="484" key="GridCell.Tab.0.center" timestamp="1630528098177">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="482" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1629671085381" />
-    <state width="1234" height="482" key="GridCell.Tab.0.left" timestamp="1629671085381">
+    <state width="1234" height="484" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1630528098177" />
+    <state width="1234" height="484" key="GridCell.Tab.0.left" timestamp="1630528098177">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="482" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1629671085381" />
-    <state width="1234" height="482" key="GridCell.Tab.0.right" timestamp="1629671085381">
+    <state width="1234" height="484" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1630528098177" />
+    <state width="1234" height="484" key="GridCell.Tab.0.right" timestamp="1630528098177">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="482" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1629671085381" />
+    <state width="1234" height="484" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1630528098177" />
     <state x="120" y="282" key="SettingsEditor" timestamp="1628630087449">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="120" y="282" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1628630087449" />
-    <state x="239" y="437" key="Vcs.Push.Dialog.v2" timestamp="1629757324412">
+    <state x="239" y="437" key="Vcs.Push.Dialog.v2" timestamp="1630525641115">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="239" y="437" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1629757324412" />
+    <state x="239" y="437" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1630525641115" />
     <state x="355" y="529" key="com.intellij.ide.util.TipDialog" timestamp="1629142655816">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
